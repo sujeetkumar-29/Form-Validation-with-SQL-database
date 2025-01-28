@@ -1,0 +1,29 @@
+{
+  "name": "formvalidation",
+  "version": "1.0.0",
+  "description": "This project is focused on creating a form validation system with database integration. Users will be able to add, edit, and delete their data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujeetkumar-29/Form-Validation-with-SQL-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujeetkumar-29/Form-Validation-with-SQL-database/issues"
+  },
+  "homepage": "https://github.com/sujeetkumar-29/Form-Validation-with-SQL-database#readme",
+  "dependencies": {
+    "@faker-js/faker": "github:faker-js/faker",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.5"
+  }
+}
