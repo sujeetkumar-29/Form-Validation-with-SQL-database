@@ -12,10 +12,10 @@ app.set('view engine', 'ejs');
 
 // Database connection
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Sql@123',
-  database: 'form_validation',
+  host: process.env.HOST,
+  user: process.env.USER,
+  password: process.env.PASSWORD,
+  database: process.env.DATABASE,
 });
 
 db.connect((err) => {
