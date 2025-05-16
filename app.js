@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { body, validationResult } = require('express-validator');
 const mysql = require('mysql2');
+const dotenv = require('dotenv').config();
+const path = require('path');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
